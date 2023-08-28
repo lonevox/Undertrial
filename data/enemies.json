@@ -1,0 +1,1633 @@
+{
+	"vorpal": {
+		"stages": [
+			{
+				"sprite": "vorpal_stage_1.png",
+				"attacks": [
+					{
+						"name": "fallingLeaves",
+						"duration": 6,
+						"objects": [
+							{
+								"type": "fallingLeaf",
+								"startTime": 0,
+								"duration": 7,
+								"positionX": 300,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 0.5,
+								"duration": 7,
+								"positionX": 400,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1,
+								"duration": 7,
+								"positionX": 500,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1.5,
+								"duration": 7,
+								"positionX": 600,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 2,
+								"duration": 7,
+								"positionX": 700,
+								"positionY": -100
+							}
+						]
+					},
+					{
+						"name": "fallingLeaves2",
+						"duration": 6,
+						"objects": [
+							{
+								"type": "fallingLeaf",
+								"startTime": 0,
+								"duration": 7,
+								"positionX": 900,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 0.5,
+								"duration": 7,
+								"positionX": 800,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1,
+								"duration": 7,
+								"positionX": 700,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1.5,
+								"duration": 7,
+								"positionX": 600,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 2,
+								"duration": 7,
+								"positionX": 500,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							}
+						]
+					},
+					{
+						"name": "stabbingBranches",
+						"duration": 4,
+						"objects": [
+							{
+								"type": "branchStab",
+								"startTime": 0,
+								"duration": 2.5,
+								"positionX": 300,
+								"positionY": 300
+							},
+							{
+								"type": "branchStab",
+								"startTime": 1,
+								"duration": 2.5,
+								"positionX": 300,
+								"positionY": 500
+							},
+							{
+								"type": "branchStab",
+								"startTime": 1.5,
+								"duration": 2.5,
+								"positionX": 900,
+								"positionY": 350,
+								"flipOutput": ["positionX"]
+							},
+							{
+								"type": "branchStab",
+								"startTime": 2.5,
+								"duration": 2.5,
+								"positionX": 900,
+								"positionY": 550,
+								"flipOutput": ["positionX"]
+							}
+						]
+					},
+					{
+						"name": "logTelegraph",
+						"duration": 1.5,
+						"objects": [
+							{
+							"type": "telegraph",
+							"startTime": 0,
+							"duration": 2,
+							"positionX": 450,
+							"positionY": 600
+							},
+							{
+							"type": "telegraph",
+							"startTime": 1,
+							"duration": 2,
+							"positionX": 600,
+							"positionY": 600
+							},
+							{
+							"type": "telegraph",
+							"startTime": 2,
+							"duration": 2,
+							"positionX": 750,
+							"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "stabbingLogs",
+						"duration": 2,
+						"objects": [
+							{
+							"type": "logStab",
+							"startTime": 0,
+							"duration": 2.5,
+							"positionX": 410,
+							"positionY": 1000
+							},
+							{
+							"type": "logStab",
+							"startTime": 1,
+							"duration": 2.5,
+							"positionX": 575,
+							"positionY": 1000
+							},
+							{
+							"type": "logStab",
+							"startTime": 2,
+							"duration": 2.5,
+							"positionX": 740,
+							"positionY": 1000
+							}
+						]
+					},
+					{
+						"name": "vulnerablePoint",
+						"duration": 2.5,
+						"objects": [
+							{
+								"type": "vulnerablePoint",
+								"startTime": 0,
+								"duration": 3,
+								"positionX": 600,
+								"positionY": 300
+							}
+						]
+					}
+				]
+			},
+			{
+				"sprite": "vorpal_stage_2.png",
+				"attacks": [
+					{
+						"name": "fallingLeaves",
+						"duration": 6,
+						"objects": [
+							{
+								"type": "fallingLeaf",
+								"startTime": 0,
+								"duration": 7,
+								"positionX": 300,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 0.5,
+								"duration": 7,
+								"positionX": 400,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1,
+								"duration": 7,
+								"positionX": 500,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1.5,
+								"duration": 7,
+								"positionX": 600,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 2,
+								"duration": 7,
+								"positionX": 700,
+								"positionY": -100
+							}
+						]
+					},
+					{
+						"name": "fallingLeaves2",
+						"duration": 5,
+						"includeAttacks": ["fallingLeaves"],
+						"objects": [
+							{
+								"type": "fallingLeaf",
+								"startTime": 0,
+								"duration": 7,
+								"positionX": 900,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 0.5,
+								"duration": 7,
+								"positionX": 800,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1,
+								"duration": 7,
+								"positionX": 700,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1.5,
+								"duration": 7,
+								"positionX": 600,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 2,
+								"duration": 7,
+								"positionX": 500,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							}
+						]
+					},
+					{
+						"name": "stabbingBranches",
+						"duration": 4,
+						"objects": [
+							{
+								"type": "branchStab",
+								"startTime": 0,
+								"duration": 2.5,
+								"positionX": 300,
+								"positionY": 300
+							},
+							{
+								"type": "branchStab",
+								"startTime": 0.5,
+								"duration": 2.5,
+								"positionX": 300,
+								"positionY": 400
+							},
+							{
+								"type": "branchStab",
+								"startTime": 1,
+								"duration": 2.5,
+								"positionX": 300,
+								"positionY": 500
+							},
+							{
+								"type": "branchStab",
+								"startTime": 1.5,
+								"duration": 2.5,
+								"positionX": 900,
+								"positionY": 350,
+								"flipOutput": ["positionX"]
+							},
+							{
+								"type": "branchStab",
+								"startTime": 2,
+								"duration": 2.5,
+								"positionX": 900,
+								"positionY": 450,
+								"flipOutput": ["positionX"]
+							},
+							{
+								"type": "branchStab",
+								"startTime": 2.5,
+								"duration": 2.5,
+								"positionX": 900,
+								"positionY": 550,
+								"flipOutput": ["positionX"]
+							}
+						]
+					},
+					{
+						"name": "logTelegraph",
+						"duration": 2,
+						"objects": [
+							{
+							"type": "telegraph",
+							"startTime": 0,
+							"duration": 2,
+							"positionX": 450,
+							"positionY": 600
+							},
+							{
+							"type": "telegraph",
+							"startTime": 1,
+							"duration": 2,
+							"positionX": 600,
+							"positionY": 600
+							},
+							{
+							"type": "telegraph",
+							"startTime": 2,
+							"duration": 2,
+							"positionX": 750,
+							"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "stabbingLogs",
+						"duration": 4,
+						"objects": [
+							{
+							"type": "logStab",
+							"startTime": 0,
+							"duration": 2.5,
+							"positionX": 410,
+							"positionY": 850
+							},
+							{
+							"type": "logStab",
+							"startTime": 1,
+							"duration": 2.5,
+							"positionX": 575,
+							"positionY": 850
+							},
+							{
+							"type": "logStab",
+							"startTime": 2,
+							"duration": 2.5,
+							"positionX": 740,
+							"positionY": 850
+							}
+						]
+					},
+					{
+						"name": "rollingLogs",
+						"duration": 4,
+						"objects": [
+							{
+								"type": "rollingLogLeft",
+								"startTime": 0,
+								"duration": 5,
+								"positionX": -400,
+								"positionY": -100
+							},
+							{
+								"type": "rollingLogRight",
+								"startTime": 1,
+								"duration": 5,
+								"positionX": 650,
+								"positionY": -100
+							},
+							{
+								"type": "rollingLogLeft",
+								"startTime": 2,
+								"duration": 5,
+								"positionX": -400,
+								"positionY": -100
+							},
+							{
+								"type": "rollingLogRight",
+								"startTime": 3,
+								"duration": 5,
+								"positionX": 650,
+								"positionY": -100
+							}
+						]
+					},
+					{
+						"name": "vulnerablePoint",
+						"duration": 2.5,
+						"objects": [
+							{
+								"type": "vulnerablePoint",
+								"startTime": 0,
+								"duration": 3,
+								"positionX": 600,
+								"positionY": 300
+							}
+						]
+					}
+				]
+			},
+			{
+				"sprite": "vorpal_stage_3.png",
+				"attacks": [
+					{
+						"name": "fallingLeaves",
+						"duration": 6,
+						"objects": [
+							{
+								"type": "fallingLeaf",
+								"startTime": 0,
+								"duration": 7,
+								"positionX": 300,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 0.5,
+								"duration": 7,
+								"positionX": 400,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1,
+								"duration": 7,
+								"positionX": 500,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1.5,
+								"duration": 7,
+								"positionX": 600,
+								"positionY": -100
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 2,
+								"duration": 7,
+								"positionX": 700,
+								"positionY": -100
+							}
+						]
+					},
+					{
+						"name": "fallingLeaves2",
+						"duration": 5,
+						"includeAttacks": ["fallingLeaves"],
+						"objects": [
+							{
+								"type": "fallingLeaf",
+								"startTime": 0,
+								"duration": 7,
+								"positionX": 900,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 0.5,
+								"duration": 7,
+								"positionX": 800,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1,
+								"duration": 7,
+								"positionX": 700,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 1.5,
+								"duration": 7,
+								"positionX": 600,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							},
+							{
+								"type": "fallingLeaf",
+								"startTime": 2,
+								"duration": 7,
+								"positionX": 500,
+								"positionY": -50,
+								"flipOutput": ["positionX", "rotation"]
+							}
+						]
+					},
+					{
+						"name": "stabbingBranches",
+						"duration": 4,
+						"objects": [
+							{
+								"type": "branchStab",
+								"startTime": 0,
+								"duration": 2.5,
+								"positionX": 300,
+								"positionY": 300
+							},
+							{
+								"type": "branchStab",
+								"startTime": 0.5,
+								"duration": 2.5,
+								"positionX": 300,
+								"positionY": 400
+							},
+							{
+								"type": "branchStab",
+								"startTime": 1,
+								"duration": 2.5,
+								"positionX": 300,
+								"positionY": 500
+							},
+							{
+								"type": "branchStab",
+								"startTime": 1.5,
+								"duration": 2.5,
+								"positionX": 900,
+								"positionY": 350,
+								"flipOutput": ["positionX"]
+							},
+							{
+								"type": "branchStab",
+								"startTime": 2,
+								"duration": 2.5,
+								"positionX": 900,
+								"positionY": 450,
+								"flipOutput": ["positionX"]
+							},
+							{
+								"type": "branchStab",
+								"startTime": 2.5,
+								"duration": 2.5,
+								"positionX": 900,
+								"positionY": 550,
+								"flipOutput": ["positionX"]
+							}
+						]
+					},
+					{
+						"name": "logTelegraph",
+						"duration": 2,
+						"objects": [
+							{
+							"type": "telegraph",
+							"startTime": 0,
+							"duration": 2,
+							"positionX": 450,
+							"positionY": 600
+							},
+							{
+							"type": "telegraph",
+							"startTime": 1,
+							"duration": 2,
+							"positionX": 600,
+							"positionY": 600
+							},
+							{
+							"type": "telegraph",
+							"startTime": 2,
+							"duration": 2,
+							"positionX": 750,
+							"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "stabbingLogs",
+						"duration": 3,
+						"objects": [
+							{
+							"type": "logStab",
+							"startTime": 0,
+							"duration": 2.5,
+							"positionX": 410,
+							"positionY": 850
+							},
+							{
+							"type": "logStab",
+							"startTime": 1,
+							"duration": 2.5,
+							"positionX": 575,
+							"positionY": 850
+							},
+							{
+							"type": "logStab",
+							"startTime": 2,
+							"duration": 2.5,
+							"positionX": 740,
+							"positionY": 850
+							}
+						]
+					},
+					{
+						"name": "leafStorm",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "fallingLeaf2",
+								"startTime": 0,
+								"duration": 7,
+								"positionX": 300,
+								"positionY": -50
+							},
+							{
+								"type": "fallingLeaf2",
+								"startTime": 0.2,
+								"duration": 7,
+								"positionX": 400,
+								"positionY": -50
+							},
+							{
+								"type": "fallingLeaf2",
+								"startTime": 0.4,
+								"duration": 7,
+								"positionX": 500,
+								"positionY": -50
+							},
+							{
+								"type": "fallingLeaf2",
+								"startTime": 0.6,
+								"duration": 7,
+								"positionX": 600,
+								"positionY": -50
+							},
+							{
+								"type": "fallingLeaf2",
+								"startTime": 0.8,
+								"duration": 7,
+								"positionX": 700,
+								"positionY": -50
+							},
+							{
+								"type": "fallingLeaf2",
+								"startTime": 1,
+								"duration": 7,
+								"positionX": 800,
+								"positionY": -50
+							}
+						]
+					},
+					{
+						"name": "fallingLeaves3",
+						"duration": 2,
+						"includeAttacks": ["fallingLeaves"],
+					},
+					{
+						"name": "leafStorm2",
+						"duration": 6,
+						"includeAttacks": ["leafStorm"]
+					},
+					{
+						"name": "rollingLogs",
+						"duration": 4,
+						"objects": [
+							{
+								"type": "rollingLogLeft",
+								"startTime": 0,
+								"duration": 5,
+								"positionX": -400,
+								"positionY": -100
+							},
+							{
+								"type": "rollingLogRight",
+								"startTime": 1,
+								"duration": 5,
+								"positionX": 600,
+								"positionY": -100
+							},
+							{
+								"type": "rollingLogLeft",
+								"startTime": 2,
+								"duration": 5,
+								"positionX": -400,
+								"positionY": -100
+							},
+							{
+								"type": "rollingLogRight",
+								"startTime": 3,
+								"duration": 5,
+								"positionX": 600,
+								"positionY": -100
+							}
+						]
+					},
+					{
+						"name": "vulnerablePoint",
+						"duration": 2.5,
+						"objects": [
+							{
+								"type": "vulnerablePoint",
+								"startTime": 0,
+								"duration": 3,
+								"positionX": 600,
+								"positionY": 300
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"frea": {
+		"stages": [
+			{
+				"sprite": "frea_stage_1.png",
+				"attacks": [
+					{
+						"name": "shardRally",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shard",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 450,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 550,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 650,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 750,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 850,
+								"positionY": -50
+							}
+						]
+					},
+					{
+						"name": "shardRallyRight",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardRight",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 200
+							},
+							{
+								"type": "shardRight",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 300
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 400
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 500
+							},
+							{
+								"type": "shardRight",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardRallyLeft",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardLeft",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 200
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 300
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 400
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 500
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardBarrage",
+						"duration": 4,
+						"includeAttacks": ["shardRallyLeft", "shardRallyRight"]
+					},
+					{
+						"name": "vulnerablePoint",
+						"duration": 2.5,
+						"objects": [
+							{
+								"type": "vulnerablePoint",
+								"startTime": 0,
+								"duration": 3,
+								"positionX": 600,
+								"positionY": 300
+							}
+						]
+					}
+				]
+			},
+			{
+				"sprite": "frea_stage_2.png",
+				"attacks": [
+					{
+						"name": "shardRally",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shard",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 450,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 550,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 650,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 750,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 850,
+								"positionY": -50
+							}
+						]
+					},
+					{
+						"name": "shardRallyRight",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardRight",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 200
+							},
+							{
+								"type": "shardRight",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 300
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 400
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 500
+							},
+							{
+								"type": "shardRight",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardRallyLeft",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardLeft",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 200
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 300
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 400
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 500
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardBarrage",
+						"duration": 4,
+						"includeAttacks": ["shardRallyLeft", "shardRallyRight"]
+					},
+					{
+						"name": "vulnerablePoint",
+						"duration": 2.5,
+						"objects": [
+							{
+								"type": "vulnerablePoint",
+								"startTime": 0,
+								"duration": 3,
+								"positionX": 600,
+								"positionY": 300
+							}
+						]
+					}
+				]
+			},
+			{
+				"sprite": "frea_stage_3.png",
+				"attacks": [
+					{
+						"name": "shardRally",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shard",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 450,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 550,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 650,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 750,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 850,
+								"positionY": -50
+							}
+						]
+					},
+					{
+						"name": "shardRallyRight",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardRight",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 200
+							},
+							{
+								"type": "shardRight",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 300
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 400
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 500
+							},
+							{
+								"type": "shardRight",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardRallyLeft",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardLeft",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 200
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 300
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 400
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 500
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardBarrage",
+						"duration": 4,
+						"includeAttacks": ["shardRallyLeft", "shardRallyRight"]
+					},
+					{
+						"name": "vulnerablePoint",
+						"duration": 2.5,
+						"objects": [
+							{
+								"type": "vulnerablePoint",
+								"startTime": 0,
+								"duration": 3,
+								"positionX": 600,
+								"positionY": 300
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"ignus": {
+		"stages": [
+			{
+				"sprite": "ignus_stage_1.png",
+				"attacks": [
+					{
+						"name": "shardRally",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shard",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 450,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 550,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 650,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 750,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 850,
+								"positionY": -50
+							}
+						]
+					},
+					{
+						"name": "shardRallyRight",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardRight",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 200
+							},
+							{
+								"type": "shardRight",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 300
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 400
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 500
+							},
+							{
+								"type": "shardRight",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardRallyLeft",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardLeft",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 200
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 300
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 400
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 500
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardBarrage",
+						"duration": 4,
+						"includeAttacks": ["shardRallyLeft", "shardRallyRight"]
+					},
+					{
+						"name": "vulnerablePoint",
+						"duration": 2.5,
+						"objects": [
+							{
+								"type": "vulnerablePoint",
+								"startTime": 0,
+								"duration": 3,
+								"positionX": 600,
+								"positionY": 300
+							}
+						]
+					}
+				]
+			},
+			{
+				"sprite": "ignus_stage_2.png",
+				"attacks": [
+					{
+						"name": "shardRally",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shard",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 450,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 550,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 650,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 750,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 850,
+								"positionY": -50
+							}
+						]
+					},
+					{
+						"name": "shardRallyRight",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardRight",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 200
+							},
+							{
+								"type": "shardRight",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 300
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 400
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 500
+							},
+							{
+								"type": "shardRight",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardRallyLeft",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardLeft",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 200
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 300
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 400
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 500
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardBarrage",
+						"duration": 4,
+						"includeAttacks": ["shardRallyLeft", "shardRallyRight"]
+					},
+					{
+						"name": "vulnerablePoint",
+						"duration": 2.5,
+						"objects": [
+							{
+								"type": "vulnerablePoint",
+								"startTime": 0,
+								"duration": 3,
+								"positionX": 600,
+								"positionY": 300
+							}
+						]
+					}
+				]
+			},
+			{
+				"sprite": "ignus_stage_3.png",
+				"attacks": [
+					{
+						"name": "shardRally",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shard",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 450,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 550,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 650,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 750,
+								"positionY": -50
+							},
+							{
+								"type": "shard",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 850,
+								"positionY": -50
+							}
+						]
+					},
+					{
+						"name": "shardRallyRight",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardRight",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 200
+							},
+							{
+								"type": "shardRight",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 300
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 400
+							},
+							{
+								"type": "shardRight",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 500
+							},
+							{
+								"type": "shardRight",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": 1350,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardRallyLeft",
+						"duration": 2,
+						"objects": [
+							{
+								"type": "shardLeft",
+								"startTime": 0,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 200
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 0.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 300
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 400
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 1.5,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 500
+							},
+							{
+								"type": "shardLeft",
+								"startTime": 2,
+								"duration": 4,
+								"positionX": -50,
+								"positionY": 600
+							}
+						]
+					},
+					{
+						"name": "shardBarrage",
+						"duration": 4,
+						"includeAttacks": ["shardRallyLeft", "shardRallyRight"]
+					},
+					{
+						"name": "vulnerablePoint",
+						"duration": 2.5,
+						"objects": [
+							{
+								"type": "vulnerablePoint",
+								"startTime": 0,
+								"duration": 3,
+								"positionX": 600,
+								"positionY": 300
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

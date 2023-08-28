@@ -1,0 +1,274 @@
+{
+	"vulnerablePoint": {
+		"sprite": "vulnerablePoint.png",
+		"scale": 4,
+		"animations": [
+			{
+				"type": "sine",
+				"modifies": "positionX",
+				"repeating": true,
+				"frequency": 5,
+				"magnitude": 1
+			}
+		],
+		"pointsInShape": [
+			{"x": 0,  "y": 5},
+			{"x": 5,  "y": 0},
+			{"x": 11, "y": 0},
+			{"x": 16, "y": 5},
+			{"x": 16, "y": 11},
+			{"x": 11, "y": 16},
+			{"x": 5,  "y": 16},
+			{"x": 0,  "y": 11}
+		]
+	},
+	"telegraph": {
+		"sprite": "telegraph.png",
+		"scale": 4,
+		"animations": [
+			{
+				"type": "sine",
+				"modifies": "positionX",
+				"repeating": true,
+				"frequency": 5,
+				"magnitude": 1
+			}
+		]
+	},
+	"fallingLeaf": {
+		"sprite": "leaf.png",
+		"scale": 4,
+		"animations": [
+			{
+				"type": "linear",
+				"modifies": "positionY",
+				"magnitude": 2
+			},
+			{
+				"type": "sine",
+				"modifies": "positionX",
+				"repeating": true,
+				"frequency": 0.25,
+				"magnitude": 5
+			},
+			{
+				"type": "sine",
+				"modifies": "positionY",
+				"repeating": true,
+				"frequency": 0.5,
+				"magnitude": 3
+			},
+			{
+				"type": "sine",
+				"modifies": "rotation",
+				"repeating": true,
+				"frequency": 0.25,
+				"magnitude": 1
+			}
+		],
+		"pointsInShape": [
+			{"x": 0, "y": 8},
+			{"x": 0, "y": 5},
+			{"x": 2, "y": 2},
+			{"x": 5, "y": 0},
+			{"x": 8, "y": 0},
+			{"x": 8, "y": 3},
+			{"x": 6, "y": 6},
+			{"x": 3, "y": 8}
+		]
+	},
+	"fallingLeaf2": {
+		"sprite": "leaf.png",
+		"scale": 4,
+		"animations": [
+			{
+				"type": "linear",
+				"modifies": "positionY",
+				"magnitude": 2
+			},
+			{
+				"type": "sine",
+				"modifies": "positionX",
+				"repeating": true,
+				"frequency": 0.4,
+				"magnitude": 3
+			},
+			{
+				"type": "sine",
+				"modifies": "positionY",
+				"repeating": true,
+				"frequency": 0.5,
+				"magnitude": 3
+			},
+			{
+				"type": "sine",
+				"modifies": "rotation",
+				"repeating": true,
+				"frequency": 0.4,
+				"magnitude": 1
+			}
+		],
+		"pointsInShape": [
+			{"x": 0, "y": 8},
+			{"x": 0, "y": 5},
+			{"x": 2, "y": 2},
+			{"x": 5, "y": 0},
+			{"x": 8, "y": 0},
+			{"x": 8, "y": 3},
+			{"x": 6, "y": 6},
+			{"x": 3, "y": 8}
+		]
+	},
+	"branchStab": {
+		"sprite": "branch.png",
+		"scale": 8,
+		"flipTexture": true,
+		"animations": [
+			{
+				"type": "linear",
+				"modifies": "positionX",
+				"magnitude": 4,
+				"delay": 0.5
+			},
+			{
+				"type": "linear",
+				"modifies": "positionX",
+				"magnitude": -8,
+				"delay": 1.5
+			}
+		],
+		"pointsInShape": [
+			{"x": 0,  "y": 3},
+			{"x": 5,  "y": 0},
+			{"x": 3,  "y": 3},
+			{"x": 6,  "y": 2},
+			{"x": 11, "y": 2},
+			{"x": 16, "y": 3},
+			{"x": 16, "y": 4},
+			{"x": 7,  "y": 4},
+			{"x": 7,  "y": 5},
+			{"x": 0,  "y": 5}
+		]
+	},
+	"logStab": {
+		"sprite": "log.png",
+		"scale": 12,
+		"animations": [
+			{
+				"type": "sine",
+				"modifies": "positionY",
+				"frequency": 0.4,
+				"magnitude": -12
+			}
+		],
+		"pointsInShape": [
+			{"x": 0,  "y": 2},
+			{"x": 2,  "y": 0},
+			{"x": 10, "y": 0},
+			{"x": 12, "y": 2},
+			{"x": 12, "y": 47},
+			{"x": 0,  "y": 47}
+		]
+	},
+	"rollingLogLeft": {
+		"sprite": "logLeft.png",
+		"scale": 12,
+		"animations": [
+			{
+				"type": "linear",
+				"modifies": "positionY",
+				"magnitude": 4
+			}
+		],
+		"pointsInShape": [
+			{"x": 0,  "y": 0},
+			{"x": 87, "y": 0},
+			{"x": 89, "y": 2},
+			{"x": 89, "y": 10},
+			{"x": 87, "y": 12},
+			{"x": 0,  "y": 12}
+		]
+	},
+	"rollingLogRight": {
+		"sprite": "logRight.png",
+		"scale": 12,
+		"animations": [
+			{
+				"type": "linear",
+				"modifies": "positionY",
+				"magnitude": 4
+			}
+		],
+		"pointsInShape": [
+			{"x": 0,  "y": 2},
+			{"x": 2,  "y": 0},
+			{"x": 47, "y": 0},
+			{"x": 47, "y": 12},
+			{"x": 2,  "y": 12},
+			{"x": 0,  "y": 10}
+		]
+	},
+	"shard": {
+		"sprite": "shard.png",
+		"scale": 16,
+		"animations": [
+			{
+				"type": "linear",
+				"modifies": "positionY",
+				"magnitude": 8
+			}
+		],
+		"pointsInShape": [
+			{"x": 0, "y": 3},
+			{"x": 2, "y": 0},
+			{"x": 3, "y": 0},
+			{"x": 5, "y": 3},
+			{"x": 5, "y": 6},
+			{"x": 3, "y": 8},
+			{"x": 1, "y": 8},
+			{"x": 0, "y": 7}
+		]
+	},
+	"shardLeft": {
+		"sprite": "shardRight.png",
+		"scale": 16,
+		"animations": [
+			{
+				"type": "linear",
+				"modifies": "positionX",
+				"magnitude": 8
+			}
+		],
+		"pointsInShape": [
+			{"x": 0, "y": 2},
+			{"x": 3, "y": 0},
+			{"x": 6, "y": 0},
+			{"x": 8, "y": 2},
+			{"x": 8, "y": 4},
+			{"x": 7, "y": 5},
+			{"x": 3, "y": 5},
+			{"x": 0, "y": 3}
+		]
+	},
+	"shardRight": {
+		"sprite": "shardRight.png",
+		"scale": 16,
+		"animations": [
+			{
+				"type": "linear",
+				"modifies": "positionX",
+				"magnitude": -8
+			}
+		],
+		"pointsInShape": [
+			{"x": 0, "y": 2},
+			{"x": 2, "y": 0},
+			{"x": 5, "y": 0},
+			{"x": 8, "y": 2},
+			{"x": 8, "y": 3},
+			{"x": 5, "y": 5},
+			{"x": 1, "y": 5},
+			{"x": 0, "y": 4}
+		]
+	}
+}
